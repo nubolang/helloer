@@ -5,8 +5,10 @@ Helloer is a demo package for Nubo's package manager.
 ## Installation
 
 ```
-nubo add github.com/nubolang/helloer
+nubo add github.com/nubolang/helloer@v1.0.0
 ```
+
+Using `@` for versioning is not required. It has a fallback value `latest`. A version can be a version number (aka Tag), a short or a long commit hash.
 
 ## Usage
 
